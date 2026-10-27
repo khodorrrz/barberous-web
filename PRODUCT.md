@@ -25,7 +25,8 @@ Elie Chehade is the owner and a barber. Mohamad is the second barber. Phone and 
 - English default, Arabic switch with right-to-left layout.
 - Services and prices in USD (client update, 2026-10-27): Hair & beard $20; haircut $13; beard trim $7; junior haircut $10; hair styling $5. Basic hair color $100; keratin treatment $50; beard color $15. Face mask $7; eyebrow shaping $6; nose & ear waxing $7. Grooming service $30 includes haircut, beard, nails and face mask.
 - Group services into Hair & beard, Hair color & treatment, Face, and Grooming package. Each row prefills its selected service in WhatsApp.
-- Remove haircut imagery from the page and current public bundle. Keep the logo and Elie's portrait. Original haircut files remain local source assets for recovery.
+- Remove haircut imagery and the owner's portrait from the page and current public bundle. Keep the logo and text introductions for both barbers. Original photographs remain local source assets for recovery.
+- Mobile service categories use inset panels with visible borders, 16px outer margins and gaps, and compact 23px headings. Desktop retains full-width alternating category bands.
 - WhatsApp appointment requests, confirmed manually by the shop. No automatic slot reservation or message sending.
 - Free hosting desired. No provider account or domain supplied.
 - No GitHub pushes without explicit approval identifying repository, branch, and commits.

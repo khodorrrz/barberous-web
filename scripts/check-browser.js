@@ -13,6 +13,8 @@ async (page) => {
   await page.evaluate(async () => { await Promise.all([...document.images].map(img => { img.loading='eager'; return img.decode().catch(() => {}); })); });
   check(await page.locator('html').getAttribute('lang') === 'en', 'English must be the default');
   check(await page.locator('img[src*="haircut-"], .gallery, #work, a[href="#work"]').count() === 0, 'Haircut imagery and gallery links must be removed');
+  check(await page.locator('.owner-portrait, img[src*="elie-chehade-portrait"]').count() === 0, 'Barber portrait must be removed');
+  check(await page.locator('.barber-bio').count() === 2, 'Keep both barber introductions');
   check(await page.locator('.menu-category').count() === 4, 'Four categories required');
   check(await page.locator('.menu-item').count() === 12, 'Twelve services required');
   const sizes = [];
@@ -35,6 +37,10 @@ async (page) => {
       check(size.body <= size.viewport, `${lang} overflow at ${width}`);
       const columns = await page.locator('.menu-category-inner').first().evaluate(node => getComputedStyle(node).gridTemplateColumns.split(' ').length);
       check(columns === (width<=760 ? 1 : 2), `Wrong menu columns at ${width}`);
+      if (width<=760) {
+        const sections = await page.locator('.menu-category').evaluateAll(nodes => nodes.map(node => ({left:node.getBoundingClientRect().left,right:node.getBoundingClientRect().right,gap:parseFloat(getComputedStyle(node).marginBottom),border:getComputedStyle(node).borderTopWidth})));
+        check(sections.every(section => section.left>=15.5 && section.right<=width-15.5 && section.gap>=14 && parseFloat(section.border)>=0.5), `Mobile categories need visible boundaries and spacing at ${width}`);
+      }
       sizes.push(`${lang}:${width}`);
     }
     const shades = await page.locator('.menu-category').evaluateAll(nodes => nodes.map(node => getComputedStyle(node).backgroundColor));

@@ -44,7 +44,6 @@ const copy = {
     "shopName": "Barberous",
     "rights": "All rights reserved.",
     "backTop": "Back to top",
-    "ownerPhoto": "Elie Chehade, owner of Barberous",
     "title": "Barberous — Haircuts & Grooming in Hadath",
     "description": "Haircuts, beard grooming and facial care at Barberous in Hadath. Explore our services and USD prices, meet our barbers, and request an appointment on WhatsApp.",
     "messages": {
@@ -112,7 +111,6 @@ const copy = {
     "shopName": "باربروس",
     "rights": "جميع الحقوق محفوظة.",
     "backTop": "إلى الأعلى",
-    "ownerPhoto": "إيلي شحادة، مالك باربروس",
     "title": "باربروس — قصّ الشعر والعناية في الحدث",
     "description": "قصّ الشعر وتهذيب اللحية والعناية بالوجه في باربروس، الحدث. اكتشف خدماتنا وأسعارنا بالدولار الأميركي، وتعرّف على فريقنا واطلب موعداً عبر واتساب.",
     "messages": {

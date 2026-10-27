@@ -26,7 +26,7 @@ typography:
 
 ## Overview
 
-Preserve the minimal luxury editorial identity. The client replaced haircut imagery with a logo-led hero and a service menu. Keep the actual logo and owner portrait; no haircut gallery.
+Preserve the minimal luxury editorial identity. The client replaced haircut imagery with a logo-led hero and a service menu, then removed the owner portrait. Keep the actual logo and text introductions for both barbers; no people photographs or haircut gallery.
 
 ## Colors
 
@@ -38,9 +38,9 @@ Self-hosted Manrope for English and Noto Sans Arabic for Arabic. The English hea
 
 ## Layout
 
-A 1180px shell holds navigation, the split editorial hero and contact information. Four full-width menu categories alternate charcoal and near-black. On desktop the category heading sits beside its service list. Each row aligns name, USD price and arrow. At 760px and below titles stack above rows. The grooming package alone has a contents description.
+A 1180px shell holds navigation, the split editorial hero and contact information. Four full-width menu categories alternate charcoal and near-black on desktop; each heading sits beside its service list. At 760px and below each category becomes an inset square panel with a thin border, 16px margins and gaps, and 28px by 20px padding. Titles stack above rows at 23px. Alternate charcoal and #121212 panel surfaces. Each row aligns name, USD price and arrow. The grooming package alone has a contents description.
 
-The team section pairs biographies and the owner's 4:5 portrait. The off-white closing panel contains a dark booking button. Arabic uses RTL; prices, telephone and Instagram handle stay LTR. No fixed mobile bar or reserved bottom space.
+The team section pairs its heading with text biographies, stacking them on mobile. The off-white closing panel contains a dark booking button. Arabic uses RTL; prices, telephone and Instagram handle stay LTR. No fixed mobile bar or reserved bottom space.
 
 ## Elevation & Depth
 
