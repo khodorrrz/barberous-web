@@ -53,7 +53,7 @@ The same system supports English and Arabic. Arabic switches the page to right-t
 - Minimal black-and-white palette with tonal depth.
 - Strong type paired with large, square-edged imagery.
 - Editorial asymmetry and quiet dividers.
-- WhatsApp booking, including a persistent mobile action.
+- WhatsApp booking through in-page actions.
 
 ## Colors
 
@@ -87,11 +87,11 @@ The palette is predominantly neutral: off-white carries text and primary actions
 
 The desktop page uses a centered shell capped at 1180px, with responsive outer gutters. A compact 96px header leads into a 550px two-column editorial hero, with tightly cropped haircut photography. Services use ruled horizontal rows: service, description, and action. The four-column gallery places tall images in columns one and three, with paired smaller images in columns two and four. The barber section pairs biographies and a portrait capped at 430px; visit details use three columns. A high-contrast off-white closing panel contains a dark booking button. Instagram appears below the hero action and in contact details.
 
-At 1050px, spacing and type tighten. At 760px and below, the hero stacks, service descriptions sit below their names, visit details become single-column, and the gallery becomes two columns with alternating vertical offsets. A fixed WhatsApp booking bar remains at the bottom of the mobile viewport. In RTL mode, direction-sensitive spacing and placement use logical properties; the phone number and Instagram handle remain left-to-right.
+At 1050px, spacing and type tighten. At 760px and below, the hero stacks, service descriptions sit below their names, visit details become single-column, and the gallery becomes two columns with alternating vertical offsets. Booking stays within the page; no fixed bar covers the mobile viewport. In RTL mode, direction-sensitive spacing and placement use logical properties; the phone number and Instagram handle remain left-to-right.
 
 ## Elevation & Depth
 
-Depth comes from tonal layering, photography, and fine dividers rather than card shadows. The profile area uses the charcoal surface against the near-black page. The fixed mobile booking bar has a subtle upward shadow to separate it from content.
+Depth comes from tonal layering, photography, and fine dividers rather than card shadows. The profile area uses the charcoal surface against the near-black page.
 
 ## Shapes
 
@@ -111,8 +111,8 @@ Desktop navigation is a quiet inline row. Hover adds an underline offset below t
 ### Gallery
 Images are edge-to-edge rectangles in an asymmetric grid. They are grayscale at rest and reveal their original color on hover. Captions sit below each image in muted, small text.
 
-### Mobile booking bar
-A fixed, full-width off-white WhatsApp action sits at the bottom of the mobile viewport, with dark text and chat/directional icons. It includes safe-area padding and an understated shadow.
+### Mobile booking
+Booking actions remain within the hero, mobile menu, services, and contact section. No fixed booking bar or reserved bottom space.
 
 ## Do's and Don'ts
 
@@ -120,7 +120,7 @@ A fixed, full-width off-white WhatsApp action sits at the bottom of the mobile v
 - **Do** keep the palette neutral and the photography prominent.
 - **Do** preserve square image edges, restrained dividers, and generous spacing.
 - **Do** keep booking actions connected to WhatsApp.
-- **Do** maintain the stacked mobile hero, two-column gallery, persistent booking bar, and RTL support.
+- **Do** maintain the stacked mobile hero, two-column gallery, in-page booking actions, and RTL support.
 
 ### Don't:
 - **Don't** add service prices; the established showcase lists services without prices.

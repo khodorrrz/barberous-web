@@ -47,7 +47,8 @@ async (page) => {
     await page.locator('.menu-toggle').click();
     await page.locator('#mobile-nav a[href="#services"]').click();
     check(await page.locator('#mobile-nav').isHidden(), 'Navigation must close menu');
-    check(await page.locator('.mobile-book').isVisible(), 'Mobile booking action missing');
+    check(await page.locator('.mobile-book').count() === 0, 'Fixed mobile booking bar must be removed');
+    check(await page.locator('.hero [data-whatsapp="general"]').isVisible(), 'In-page booking button must remain');
     await page.evaluate(() => window.scrollTo({top:0,behavior:'instant'}));
     await page.screenshot({path:`C:/Users/khodor/Desktop/Barberous/barberous-web/.impeccable/qa/${lang}-mobile.png`,fullPage:true});
     await page.setViewportSize({width:1440,height:1000});
