@@ -1,0 +1,6 @@
+.serena/
+.impeccable/
+.openai/*
+!.openai/hosting.json
+*.zip
+__pycache__/
