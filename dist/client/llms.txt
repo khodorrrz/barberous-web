@@ -1,19 +1,19 @@
 # Barberous
 
-> Barbershop in Hadath, Lebanon. Haircuts, beard grooming, face care, hair color and keratin treatment. Prices in USD. Appointments are requested on WhatsApp and confirmed by the shop.
+> Barbershop in Hadat, Lebanon. Haircuts, beard grooming, face care, hair color and keratin treatment. Prices in USD. Appointments are requested on WhatsApp and confirmed by the shop.
 
 ## Contact
 
 - Phone / WhatsApp: +961 70 576 915
 - Instagram: https://www.instagram.com/barberous.byelie/
 - Directions: https://maps.app.goo.gl/9kXkQLaUTHoh73pz9
-- Address: Hadath, Baabda District, Mount Lebanon, Lebanon
+- Address: Hadat, Baabda District, Mount Lebanon, Lebanon
 - Coordinates: 33.833007, 35.5317624
 
 ## Hours
 
-- Monday–Saturday: 10:00–20:00
-- Sunday: 10:00–14:00
+- Monday-Saturday: 10:00-20:00
+- Sunday: Closed
 
 ## Prices (USD)
 
@@ -39,8 +39,8 @@ Grooming package
 
 ## Barbers
 
-- Elie Chehade — owner and barber
-- Mohamad — barber
+- Elie Chehade - owner and barber
+- Mohamad - barber
 
 ## Booking
 

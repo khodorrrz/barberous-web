@@ -16,9 +16,9 @@ Visitors exploring Barberous, viewing real haircut work, finding the shop, and r
 
 ## Operating Context
 
-Barberous is in Hadath, Lebanon, as identified by the supplied Google Maps destination. Location link: https://maps.app.goo.gl/9kXkQLaUTHoh73pz9?g_st=ic.
+Barberous is in Hadat, Lebanon, as identified by the supplied Google Maps destination. Location link: https://maps.app.goo.gl/9kXkQLaUTHoh73pz9?g_st=ic.
 
-Elie Chehade is the owner and a barber. Mohamad is the second barber. Phone and WhatsApp: +961 70 576 915. Hours: Monday–Saturday 10:00–20:00; Sunday 10:00–14:00.
+Elie Chehade is the owner and a barber. Mohamad is the second barber. Phone and WhatsApp: +961 70 576 915. Hours: Monday–Saturday 10:00–20:00; Sunday closed.
 
 ## Capabilities and Constraints
 
