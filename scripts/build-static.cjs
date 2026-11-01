@@ -9,4 +9,5 @@ fs.copyFileSync(path.join(root, 'ar', 'index.html'), path.join(output, 'ar', 'in
 // Publish only current site assets; retain retired photos in local source.
 for (const file of ['barberous-logo.jpg', 'favicon.svg', 'og-image.jpg']) fs.copyFileSync(path.join(root, 'assets', file), path.join(output, 'assets', file));
 fs.cpSync(path.join(root, 'assets', 'fonts'), path.join(output, 'assets', 'fonts'), {recursive:true});
+fs.cpSync(path.join(root, 'services'), path.join(output, 'services'), {recursive:true});
 console.log('Static bundle ready: dist/client (both languages, SEO files, logo and fonts; no people photographs)');

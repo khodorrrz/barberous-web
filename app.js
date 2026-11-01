@@ -18,6 +18,7 @@ window.matchMedia('(min-width: 761px)').addEventListener('change', event => { if
 
 // Static wa.me links work alone; this only fills in the prefilled message.
 document.querySelectorAll('[data-message]').forEach(node => {
+  if (!node.href.includes('wa.me')) return;
   node.href = 'https://wa.me/96170576915?text=' + encodeURIComponent(node.dataset.message);
 });
 
