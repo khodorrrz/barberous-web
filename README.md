@@ -20,7 +20,7 @@ The client replaced haircut photographs with twelve priced services in four cate
 
 ## SEO and AI search
 
-Everything assumes the domain `https://barberous.app`. If the domain changes, update the canonical, `hreflang`, Open Graph/Twitter URLs, JSON-LD `@id`/`url`, `sitemap.xml` and `llms.txt` together.
+Everything assumes the domain `https://barberous.pages.dev`. If the domain changes, update the canonical, `hreflang`, Open Graph/Twitter URLs, JSON-LD `@id`/`url`, `sitemap.xml` and `llms.txt` together.
 
 - `index.html` and `ar/index.html` carry `BarberShop` and `FAQPage` JSON-LD: address, coordinates, hours, phone, all twelve offers with USD prices, employees and area served (Hadat, Baabda, Beirut).
 - Visible FAQ accordion matches the `FAQPage` markup; answers restate address, hours, prices and booking so they stay readable without JavaScript.

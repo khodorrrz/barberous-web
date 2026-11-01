@@ -31,3 +31,4 @@ html[dir=rtl]{--font:'Noto Sans Arabic',Arial,sans-serif}html[dir=rtl] h1,html[d
 .about{grid-column:1/-1;width:100%}
 .about-heading h2{font-size:clamp(24px,2.5vw,34px);line-height:1.2;letter-spacing:-.025em;margin-bottom:16px}
 .about-heading p{font-size:17px;line-height:1.7;color:#c9c9c9;max-width:90ch}
+@media(max-width:480px){.error-header{flex-wrap:wrap;padding-block:16px}.error-header .button{order:3;width:100%}}

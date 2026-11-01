@@ -48,5 +48,5 @@ Walk-ins are welcome. Each service row on the site opens WhatsApp with a prefill
 
 ## Pages
 
-- English: https://barberous.app/
-- Arabic: https://barberous.app/ar/
+- English: https://barberous.pages.dev/
+- Arabic: https://barberous.pages.dev/ar/

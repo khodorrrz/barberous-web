@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://barberous.app/sitemap.xml
+Sitemap: https://barberous.pages.dev/sitemap.xml
