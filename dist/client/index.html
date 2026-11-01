@@ -13,6 +13,8 @@
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="geo.position" content="33.833007;35.5317624">
   <meta name="ICBM" content="33.833007, 35.5317624">
+  <meta name="geo.region" content="LB-BA">
+  <meta name="geo.placename" content="Hadat, Baabda District, Mount Lebanon, Lebanon">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Barberous">
   <meta property="og:locale" content="en_US">
@@ -33,151 +35,321 @@
   <link rel="stylesheet" href="assets/fonts/fonts.css">
   <link rel="stylesheet" href="style.css?v=8">
   <script src="app.js?v=8" defer></script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BarberShop",
-        "@id": "https://barberous.pages.dev/#barbershop",
-        "name": "Barberous",
-        "alternateName": "باربروس",
-        "description": "Barberous is a men’s barbershop in Hadat, Baabda District, Mount Lebanon, offering classic and modern haircuts, beard grooming, face care, hair coloring, keratin treatments, and waxing services. All prices in USD. Walk-ins welcome; appointments requested on WhatsApp. Open Monday–Saturday 10:00–20:00, Sunday closed.",
-        "url": "https://barberous.pages.dev/",
-        "image": "https://barberous.pages.dev/assets/og-image.jpg",
-        "logo": "https://barberous.pages.dev/assets/barberous-logo.jpg",
-        "telephone": "+96170576915",
-        "priceRange": "$5–$100",
-        "currenciesAccepted": "USD",
-        "paymentAccepted": "Cash",
-        "knowsLanguage": ["en", "ar"],
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Hadat",
-          "addressRegion": "Mount Lebanon",
-          "postalCode": "1003",
-          "addressCountry": "LB"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 33.833007,
-          "longitude": 35.5317624
-        },
-        "hasMap": "https://maps.app.goo.gl/9kXkQLaUTHoh73pz9",
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-            "opens": "10:00",
-            "closes": "20:00"
-          }
-        ],
-        "sameAs": [
-          "https://www.instagram.com/barberous.byelie/",
-          "https://maps.app.goo.gl/9kXkQLaUTHoh73pz9"
-        ],
-        "areaServed": [
-          { "@type": "City", "name": "Hadat" },
-          { "@type": "City", "name": "Baabda" },
-          { "@type": "City", "name": "Beirut" }
-        ],
-        "employee": [
-          { "@type": "Person", "name": "Elie Chehade", "jobTitle": "Owner and barber" },
-          { "@type": "Person", "name": "Mohamad", "jobTitle": "Barber" }
-        ],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Barberous services",
-          "itemListElement": [
-            {
-              "@type": "OfferCatalog",
-              "name": "Hair & beard",
-              "itemListElement": [
-                { "@type": "Offer", "price": "20.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Hair & beard" } },
-                { "@type": "Offer", "price": "13.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Haircut" } },
-                { "@type": "Offer", "price": "7.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Beard trim" } },
-                { "@type": "Offer", "price": "10.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Junior haircut" } },
-                { "@type": "Offer", "price": "5.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Hair styling" } }
-              ]
-            },
-            {
-              "@type": "OfferCatalog",
-              "name": "Hair color & treatment",
-              "itemListElement": [
-                { "@type": "Offer", "price": "100.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Basic hair color" } },
-                { "@type": "Offer", "price": "50.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Keratin treatment" } },
-                { "@type": "Offer", "price": "15.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Beard color" } }
-              ]
-            },
-            {
-              "@type": "OfferCatalog",
-              "name": "Face",
-              "itemListElement": [
-                { "@type": "Offer", "price": "7.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Face mask" } },
-                { "@type": "Offer", "price": "6.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Eyebrow shaping" } },
-                { "@type": "Offer", "price": "7.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Nose & ear waxing" } }
-              ]
-            },
-            {
-              "@type": "OfferCatalog",
-              "name": "Grooming package",
-              "itemListElement": [
-                { "@type": "Offer", "price": "30.00", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Grooming service", "description": "Haircut, beard, nails and face mask" } }
-              ]
-            }
-          ]
-        }
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BarberShop",
+      "@id": "https://barberous.pages.dev/#barbershop",
+      "name": "Barberous",
+      "alternateName": "باربروس",
+      "description": "Barberous is a men’s barbershop in Hadat, Baabda District, Mount Lebanon, offering classic and modern haircuts, beard grooming, face care, hair coloring, keratin treatments, and waxing services. All prices in USD. Walk-ins welcome; appointments requested on WhatsApp. Open Monday–Saturday 10:00–20:00, Sunday closed.",
+      "url": "https://barberous.pages.dev/",
+      "image": "https://barberous.pages.dev/assets/og-image.jpg",
+      "logo": "https://barberous.pages.dev/assets/barberous-logo.jpg",
+      "telephone": "+96170576915",
+      "priceRange": "$5–$100",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Cash",
+      "knowsLanguage": [
+        "en",
+        "ar"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hadat",
+        "addressRegion": "Mount Lebanon",
+        "postalCode": "1003",
+        "addressCountry": "LB"
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://barberous.pages.dev/#faq",
-        "inLanguage": "en",
-        "mainEntity": [
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.833007,
+        "longitude": 35.5317624
+      },
+      "hasMap": "https://maps.app.goo.gl/9kXkQLaUTHoh73pz9",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "20:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/barberous.byelie/",
+        "https://maps.app.goo.gl/9kXkQLaUTHoh73pz9"
+      ],
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Hadat"
+        },
+        {
+          "@type": "City",
+          "name": "Baabda"
+        },
+        {
+          "@type": "City",
+          "name": "Beirut"
+        }
+      ],
+      "employee": [
+        {
+          "@type": "Person",
+          "name": "Elie Chehade",
+          "jobTitle": "Owner and barber"
+        },
+        {
+          "@type": "Person",
+          "name": "Mohamad",
+          "jobTitle": "Barber"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Barberous services",
+        "itemListElement": [
           {
-            "@type": "Question",
-            "name": "Where is Barberous located?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Barberous is a barbershop in Hadat, Baabda District, Mount Lebanon, Lebanon, a few minutes from Beirut. Use the Google Maps link on this page for directions." }
+            "@type": "OfferCatalog",
+            "name": "Hair & beard",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "price": "20.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Hair & beard"
+                }
+              },
+              {
+                "@type": "Offer",
+                "price": "13.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Haircut"
+                }
+              },
+              {
+                "@type": "Offer",
+                "price": "7.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Beard trim"
+                }
+              },
+              {
+                "@type": "Offer",
+                "price": "10.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Junior haircut"
+                }
+              },
+              {
+                "@type": "Offer",
+                "price": "5.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Hair styling"
+                }
+              }
+            ]
           },
           {
-            "@type": "Question",
-            "name": "What are the opening hours?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Barberous is open Monday to Saturday from 10 AM to 8 PM. Sunday we are closed." }
+            "@type": "OfferCatalog",
+            "name": "Hair color & treatment",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "price": "100.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Basic hair color"
+                }
+              },
+              {
+                "@type": "Offer",
+                "price": "50.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Keratin treatment"
+                }
+              },
+              {
+                "@type": "Offer",
+                "price": "15.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Beard color"
+                }
+              }
+            ]
           },
           {
-            "@type": "Question",
-            "name": "How much is a haircut at Barberous?",
-            "acceptedAnswer": { "@type": "Answer", "text": "A haircut is $13. Hair and beard together is $20, a beard trim is $7 and a junior haircut is $10. All prices are in USD." }
+            "@type": "OfferCatalog",
+            "name": "Face",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "price": "7.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Face mask"
+                }
+              },
+              {
+                "@type": "Offer",
+                "price": "6.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Eyebrow shaping"
+                }
+              },
+              {
+                "@type": "Offer",
+                "price": "7.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Nose & ear waxing"
+                }
+              }
+            ]
           },
           {
-            "@type": "Question",
-            "name": "Do I need an appointment?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Walk-ins are welcome. For a specific time, send a WhatsApp message to +961 70 576 915 with your service and preferred day and time. The shop confirms manually." }
-          },
-          {
-            "@type": "Question",
-            "name": "Which services does Barberous offer?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Haircut, hair and beard, beard trim, junior haircut, hair styling, basic hair color, keratin treatment, beard color, face mask, eyebrow shaping, nose and ear waxing, and a $30 grooming package with haircut, beard, nails and face mask." }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you cut children's hair?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. A junior haircut is $10." }
-          },
-          {
-            "@type": "Question",
-            "name": "Which languages do the barbers speak?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Arabic and English." }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I book an appointment?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Tap any service row or the WhatsApp button on this page. WhatsApp opens with a prefilled request; add your preferred day and time, then send it. Barberous confirms on WhatsApp." }
+            "@type": "OfferCatalog",
+            "name": "Grooming package",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "price": "30.00",
+                "priceCurrency": "USD",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Grooming service",
+                  "description": "Haircut, beard, nails and face mask"
+                }
+              }
+            ]
           }
         ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://barberous.pages.dev/#faq",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where is Barberous located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barberous is a barbershop in Hadat, Baabda District, Mount Lebanon, Lebanon, a few minutes from Beirut. Use the Google Maps link on this page for directions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the opening hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barberous is open Monday to Saturday from 10 AM to 8 PM. Sunday we are closed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is a haircut at Barberous?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A haircut is $13. Hair and beard together is $20, a beard trim is $7 and a junior haircut is $10. All prices are in USD."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an appointment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Walk-ins are welcome. For a specific time, send a WhatsApp message to +961 70 576 915 with your service and preferred day and time. The shop confirms manually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which services does Barberous offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haircut, hair and beard, beard trim, junior haircut, hair styling, basic hair color, keratin treatment, beard color, face mask, eyebrow shaping, nose and ear waxing, and a $30 grooming package with haircut, beard, nails and face mask."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you cut children's hair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A junior haircut is $10."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which languages do the barbers speak?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Arabic and English."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book an appointment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tap any service row or the WhatsApp button on this page. WhatsApp opens with a prefilled request; add your preferred day and time, then send it. Barberous confirms on WhatsApp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which areas does Barberous serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Barberous serves Hadat, Baabda District, Mount Lebanon, and nearby Beirut neighborhoods. We’re minutes from central Beirut."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you accept walk-ins without an appointment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Walk-ins are welcome at our Hadat shop Monday to Saturday, 10 AM to 8 PM. For a specific time, it’s best to message us on WhatsApp first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I request a specific barber?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. When you message us on WhatsApp, let us know if you’d prefer Elie or Mohamad, and we’ll do our best to accommodate."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
 </head>
 <body>
 <!-- THESIS: The Barberous identity leads a quiet service menu with transparent USD pricing.
@@ -212,7 +384,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <div class="hero-copy">
         <p class="hero-kicker">Barbershop · Hadat, Lebanon</p>
         <h1 id="hero-title"><span>Your style.</span><span>Our craft.</span></h1>
-        <p class="hero-description">Haircuts, beard grooming, and the finishing details. Barberous by Elie Chehade, Hadat.</p>
+        <p class="hero-description">Barberous is a men’s barbershop in Hadat, Baabda District, Mount Lebanon — minutes from Beirut. Classic and modern haircuts, beard grooming, face care, hair coloring, keratin treatments, and waxing. All prices in USD. Book on WhatsApp or walk in.</p>
         <a class="button button-light" data-message="Hello Barberous! I’d like to request an appointment.&#10;Service: &#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span>Book via WhatsApp</span><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a>
         <a class="hero-social" href="https://www.instagram.com/barberous.byelie/" target="_blank" rel="noopener noreferrer" aria-label="Barberous on Instagram"><svg class="icon" aria-hidden="true"><use href="#instagram"/></svg><span dir="ltr">@barberous.byelie</span></a>
         <div class="hero-foot"><span>Hadat, Lebanon</span><a href="#services"><span>Explore services</span><svg class="icon down-arrow" aria-hidden="true"><use href="#arrow"/></svg></a></div>
@@ -227,7 +399,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       </div>
     </section>
     </section>
-    <section id="services" class="service-menu" aria-labelledby="services-title"><div class="shell section-heading menu-heading"><h2 id="services-title">Services &amp; prices.</h2><p>Prices in USD. Select a service to request an appointment.</p></div>
+    <section id="services" class="service-menu" aria-labelledby="services-title"><div class="shell section-heading menu-heading"><h2 id="services-title">Services &amp; prices.</h2><p>Barberous services &amp; prices in Hadat, Lebanon. All prices in USD. Select a service to request an appointment by WhatsApp.</p></div>
       <section id="hair-beard" class="menu-category" aria-labelledby="hair-beard-title"><div class="shell menu-category-inner"><h3 id="hair-beard-title">Hair &amp; beard</h3><div class="menu-list"><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Hair &amp; beard.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Hair &amp; beard</span></span><strong class="menu-price" dir="ltr">$20</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Haircut.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Haircut</span></span><strong class="menu-price" dir="ltr">$13</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Beard trim.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Beard trim</span></span><strong class="menu-price" dir="ltr">$7</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Junior haircut.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Junior haircut</span></span><strong class="menu-price" dir="ltr">$10</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Hair styling.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Hair styling</span></span><strong class="menu-price" dir="ltr">$5</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a></div></div></section>
       <section id="color-treatment" class="menu-category" aria-labelledby="color-treatment-title"><div class="shell menu-category-inner"><h3 id="color-treatment-title">Hair color &amp; treatment</h3><div class="menu-list"><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Basic hair color.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Basic hair color</span></span><strong class="menu-price" dir="ltr">$100</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Keratin treatment.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Keratin treatment</span></span><strong class="menu-price" dir="ltr">$50</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Beard color.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Beard color</span></span><strong class="menu-price" dir="ltr">$15</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a></div></div></section>
       <section id="face" class="menu-category" aria-labelledby="face-title"><div class="shell menu-category-inner"><h3 id="face-title">Face</h3><div class="menu-list"><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Face mask.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Face mask</span></span><strong class="menu-price" dir="ltr">$7</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Eyebrow shaping.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Eyebrow shaping</span></span><strong class="menu-price" dir="ltr">$6</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a><a class="menu-item" data-message="Hello Barberous! I’d like to request an appointment for Nose &amp; ear waxing.&#10;Date and time: " href="https://wa.me/96170576915" target="_blank" rel="noopener noreferrer"><span class="menu-item-copy"><span>Nose &amp; ear waxing</span></span><strong class="menu-price" dir="ltr">$7</strong><svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a></div></div></section>
@@ -253,6 +425,9 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
           <details class="faq-item"><summary>Which services do you offer?</summary><p>Haircut, hair and beard, beard trim, junior haircut, hair styling, basic hair color, keratin treatment, beard color, face mask, eyebrow shaping, nose and ear waxing, and a $30 grooming package with haircut, beard, nails and face mask.</p></details>
           <details class="faq-item"><summary>Do you cut children’s hair?</summary><p>Yes. A junior haircut is $10.</p></details>
           <details class="faq-item"><summary>How do I book an appointment?</summary><p>Tap any service row or the WhatsApp button on this page. WhatsApp opens with a prefilled request; add your preferred day and time, then send it. Barberous confirms on WhatsApp.</p></details>
+          <details class="faq-item"><summary>Which areas does Barberous serve?</summary><p>Barberous serves Hadat, Baabda District, Mount Lebanon, and nearby Beirut neighborhoods. We’re minutes from central Beirut.</p></details>
+          <details class="faq-item"><summary>Do you accept walk-ins without an appointment?</summary><p>Yes. Walk-ins are welcome at our Hadat shop Monday to Saturday, 10 AM to 8 PM. For a specific time, it’s best to message us on WhatsApp first.</p></details>
+          <details class="faq-item"><summary>Can I request a specific barber?</summary><p>Yes. When you message us on WhatsApp, let us know if you’d prefer Elie or Mohamad, and we’ll do our best to accommodate.</p></details>
         </div>
       </div>
     </section>
