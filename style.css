@@ -27,3 +27,8 @@ html[dir=rtl]{--font:'Noto Sans Arabic',Arial,sans-serif}html[dir=rtl] h1,html[d
 .visit-note{font-size:14px;color:var(--muted);margin-top:10px}
 
 @media(max-width:760px){.faq-inner{grid-template-columns:1fr;gap:26px}.faq-heading p{margin-top:12px}.faq-item summary{font-size:16px}.hero-kicker{margin-bottom:12px}}
+
+.about-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about-heading h2{font-size:clamp(24px,2.5vw,34px);line-height:1.2;letter-spacing:-.025em;margin-bottom:16px}
+.about-heading p{font-size:16px;line-height:1.8;color:var(--muted);max-width:62ch}
+@media(max-width:760px){.about-inner{grid-template-columns:1fr;gap:26px}}
