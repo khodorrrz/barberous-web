@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barberous.app/sitemap.xml

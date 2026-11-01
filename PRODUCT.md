@@ -31,6 +31,7 @@ Elie Chehade is the owner and a barber. Mohamad is the second barber. Phone and 
 - Free hosting desired. No provider account or domain supplied.
 - No GitHub pushes without explicit approval identifying repository, branch, and commits.
 - Instagram: https://www.instagram.com/barberous.byelie/. Mohamad's portrait is not yet supplied; do not invent one.
+- SEO and AI search (2026-10-29): target domain https://barberous.app, English at `/`, Arabic at `/ar/` with hreflang. BarberShop and FAQPage JSON-LD, visible FAQ, robots.txt, sitemap.xml, llms.txt, Open Graph card. Street address still missing from postal schema. No fabricated reviews; ranking depends on Google Business Profile, which the owner has not created yet.
 
 ## Brand Commitments
 
