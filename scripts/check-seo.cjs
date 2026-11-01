@@ -10,6 +10,24 @@ for (const f of ['index.html', 'ar/index.html']) {
   let data;
   try { data = JSON.parse(m[0][1]); } catch (e) { console.log(f, 'FAIL JSON:', e.message); bad++; continue; }
   console.log(f, 'JSON-LD OK:', data['@graph'].map(n => n['@type']).join(','));
+  const meta = (attribute, key) => {
+    const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return html.match(new RegExp(`<meta ${attribute}="${escaped}" content="([^"]+)">`))?.[1];
+  };
+  const canonical = html.match(/<link rel="canonical" href="([^"]+)">/)?.[1];
+  for (const key of ['og:title', 'og:description', 'og:url', 'og:image', 'og:image:alt']) {
+    if (!meta('property', key)) { console.log('  MISSING', key); bad++; }
+  }
+  if (meta('property', 'og:url') !== canonical) { console.log('  FAIL og:url differs from canonical'); bad++; }
+  const image = meta('property', 'og:image');
+  if (image) {
+    const url = new URL(image);
+    if (url.origin !== 'https://barberous.pages.dev' || !fs.existsSync(path.join(root, url.pathname))) {
+      console.log('  FAIL social image', image); bad++;
+    }
+  }
+  if (meta('name', 'twitter:image') !== image) { console.log('  FAIL Twitter image differs from Open Graph'); bad++; }
+  if (!meta('name', 'description') || !meta('name', 'twitter:description')) { console.log('  MISSING description'); bad++; }
   const refs = [...html.matchAll(/(?:src|href)="((?!https?:|#|tel:|mailto:)[^"]+)"/g)].map(x => x[1]);
   for (const r of new Set(refs)) {
     const p = path.join(path.dirname(full), r.split('?')[0]);
