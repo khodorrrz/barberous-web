@@ -34,6 +34,17 @@ html[dir=rtl]{--font:'Noto Sans Arabic',Arial,sans-serif}html[dir=rtl] h1,html[d
 @media(max-width:480px){.error-header{flex-wrap:wrap;padding-block:16px}.error-header .button{order:3;width:100%}}
 
 /* Hero: a quieter brand panel gives the headline and booking action room to lead. */
+@media(max-width:760px){
+  .barbers.section{padding-block:48px}
+  .barbers-inner{gap:24px}
+  .barbers-intro{margin:12px 0 0;line-height:1.6}
+  .barber-bio{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:8px 16px;padding-block:24px}
+  .barber-bio h3{font-size:22px;line-height:1.35}
+  .barber-bio>span{font-size:12px;color:var(--muted);text-align:end}
+  .barber-bio p{grid-column:1/-1;margin-top:4px;line-height:1.7}
+  .barber-bio:last-child{padding-bottom:0}
+}
+
 .hero{grid-template-columns:1.12fr .88fr;column-gap:clamp(32px,5vw,72px)}
 .hero-copy{padding:clamp(48px,6vw,82px) 0 32px}
 .hero h1{font-size:clamp(44px,5.4vw,72px);margin-bottom:24px}

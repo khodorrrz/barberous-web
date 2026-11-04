@@ -1,236 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://barberous.pages.dev/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/ar/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/haircut.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/haircut.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/haircut.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/haircut.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/haircut</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/haircut"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/haircut"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/haircut"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/hair-beard.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/hair-beard.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/hair-beard.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/hair-beard.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/hair-beard</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/hair-beard"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/hair-beard"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/hair-beard"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/beard-trim.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/beard-trim.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/beard-trim.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/beard-trim.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/beard-trim</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/beard-trim"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/beard-trim"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/beard-trim"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/junior-haircut.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/junior-haircut.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/junior-haircut.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/junior-haircut.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/junior-haircut</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/junior-haircut"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/junior-haircut"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/junior-haircut"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/hair-styling.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/hair-styling.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/hair-styling.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/hair-styling.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/hair-styling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/hair-styling"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/hair-styling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/hair-styling"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/basic-hair-color.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/basic-hair-color.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/basic-hair-color.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/basic-hair-color.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/basic-hair-color</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/basic-hair-color"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/basic-hair-color"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/basic-hair-color"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/keratin-treatment.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/keratin-treatment.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/keratin-treatment.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/keratin-treatment.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/keratin-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/keratin-treatment"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/keratin-treatment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/keratin-treatment"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/beard-color.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/beard-color.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/beard-color.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/beard-color.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/beard-color</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/beard-color"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/beard-color"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/beard-color"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/face-mask.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/face-mask.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/face-mask.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/face-mask.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/face-mask</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/face-mask"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/face-mask"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/face-mask"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/eyebrow-shaping.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/eyebrow-shaping.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/eyebrow-shaping.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/eyebrow-shaping.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/eyebrow-shaping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/eyebrow-shaping"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/eyebrow-shaping"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/eyebrow-shaping"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/nose-ear-waxing.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/nose-ear-waxing.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/nose-ear-waxing.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/nose-ear-waxing.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/nose-ear-waxing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/nose-ear-waxing"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/nose-ear-waxing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/nose-ear-waxing"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/grooming-service.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/grooming-service.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/grooming-service.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/grooming-service.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/grooming-service</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/grooming-service"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/grooming-service"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/grooming-service"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/haircut.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/haircut.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/haircut.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/haircut.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/haircut</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/haircut"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/haircut"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/haircut"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/hair-beard.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/hair-beard.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/hair-beard.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/hair-beard.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/hair-beard</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/hair-beard"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/hair-beard"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/hair-beard"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/beard-trim.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/beard-trim.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/beard-trim.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/beard-trim.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/beard-trim</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/beard-trim"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/beard-trim"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/beard-trim"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/junior-haircut.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/junior-haircut.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/junior-haircut.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/junior-haircut.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/junior-haircut</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/junior-haircut"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/junior-haircut"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/junior-haircut"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/hair-styling.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/hair-styling.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/hair-styling.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/hair-styling.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/hair-styling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/hair-styling"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/hair-styling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/hair-styling"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/basic-hair-color.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/basic-hair-color.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/basic-hair-color.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/basic-hair-color.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/basic-hair-color</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/basic-hair-color"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/basic-hair-color"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/basic-hair-color"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/keratin-treatment.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/keratin-treatment.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/keratin-treatment.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/keratin-treatment.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/keratin-treatment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/keratin-treatment"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/keratin-treatment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/keratin-treatment"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/beard-color.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/beard-color.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/beard-color.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/beard-color.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/beard-color</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/beard-color"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/beard-color"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/beard-color"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/face-mask.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/face-mask.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/face-mask.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/face-mask.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/face-mask</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/face-mask"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/face-mask"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/face-mask"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/eyebrow-shaping.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/eyebrow-shaping.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/eyebrow-shaping.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/eyebrow-shaping.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/eyebrow-shaping</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/eyebrow-shaping"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/eyebrow-shaping"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/eyebrow-shaping"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/nose-ear-waxing.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/nose-ear-waxing.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/nose-ear-waxing.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/nose-ear-waxing.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/nose-ear-waxing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/nose-ear-waxing"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/nose-ear-waxing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/nose-ear-waxing"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://barberous.pages.dev/services/ar/grooming-service.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.pages.dev/services/grooming-service.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.pages.dev/services/ar/grooming-service.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.pages.dev/services/grooming-service.html"/>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://barberous.app/services/ar/grooming-service</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://barberous.app/services/grooming-service"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://barberous.app/services/ar/grooming-service"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://barberous.app/services/grooming-service"/>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

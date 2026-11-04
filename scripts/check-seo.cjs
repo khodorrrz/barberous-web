@@ -22,7 +22,7 @@ for (const f of ['index.html', 'ar/index.html']) {
   const image = meta('property', 'og:image');
   if (image) {
     const url = new URL(image);
-    if (url.origin !== 'https://barberous.pages.dev' || !fs.existsSync(path.join(root, url.pathname))) {
+    if (url.origin !== 'https://barberous.app' || !fs.existsSync(path.join(root, url.pathname))) {
       console.log('  FAIL social image', image); bad++;
     }
   }
@@ -31,7 +31,8 @@ for (const f of ['index.html', 'ar/index.html']) {
   const refs = [...html.matchAll(/(?:src|href)="((?!https?:|#|tel:|mailto:)[^"]+)"/g)].map(x => x[1]);
   for (const r of new Set(refs)) {
     const p = path.join(path.dirname(full), r.split('?')[0]);
-    if (!fs.existsSync(p)) { console.log('  MISSING', r, '->', p); bad++; }
+    const file = fs.existsSync(p) ? p : fs.existsSync(p + '.html') ? p + '.html' : p;
+    if (!fs.existsSync(file)) { console.log('  MISSING', r, '->', p); bad++; }
   }
   const opens = (html.match(/<details/g) || []).length;
   const closes = (html.match(/<\/details>/g) || []).length;
